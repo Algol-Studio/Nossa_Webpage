@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Algol Studio</title> 
+	</head> 
+	<body>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="salgol.css">
+		<div id="commonheader">
+				<h1>
+					<a id="linkprincipal" href="algolStudio2.html"><i><strong>Algol Studio</strong></i> </a>
+				</h1>
+			</header> 
+		</div>
+		<div id="menu" >   
+		<a href="Portfolio.html" >Portfolio</a></li>
+		<a href="Sobre.html" >Sobre</a></li>
+		<a href="Contato.html" >Contato</a> 
+		</div>
+
+    
+
+        <div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+
+
+
+    </div>
+	<footer id="commonfooter"> 
+	
+	<small><i><p id="Footername">Algol Studio<p/> <span id="date"></span></i></small> 
+        <script>
+var data = new Date().getFullYear();
+
+document.getElementById("date").innerHTML = data;
+</script>
+
+	</footer>
+	</body>
+</html>
